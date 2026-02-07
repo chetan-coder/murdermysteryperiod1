@@ -1,7 +1,7 @@
 ---
 layout: opencs
 title: Mansion Level 3
-permalink: /gamify/mansion3
+permalink: /murdermystery3
 microblog: true
 ---
 
@@ -12,10 +12,10 @@ microblog: true
 
 <script type="module">
     // Mansion Game assets locations (use central core + GameControl)
-    import Core from "{{site.baseurl}}/assets/js/mansionGame/MansionLogic/Game.js";
-    import GameControl from "{{site.baseurl}}/assets/js/mansionGame/GameControl.js";
-    import { initCheats } from "{{site.baseurl}}/assets/js/mansionGame/cheats.js";
-    import GameLevel3 from "{{site.baseurl}}/assets/js/mansionGame/mansionLevel3.js";
+    import Core from "{{site.baseurl}}/assets/js/murderMysteryGame/murderMysteryGameLogic/Game.js";
+    import GameControl from "{{site.baseurl}}/assets/js/murderMysteryGame/murderMysteryGameLogic/GameControl.js";
+    import { initCheats } from "{{site.baseurl}}/assets/js/murderMysteryGame/cheats.js";
+    import GameLevel3 from "{{site.baseurl}}/assets/js/murderMysteryGame/mansionLevel3.js";
     import { pythonURI, javaURI, fetchOptions } from '{{site.baseurl}}/assets/js/api/config.js';
 
     // Web Server Environment data
